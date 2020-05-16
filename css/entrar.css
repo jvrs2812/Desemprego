@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(100, 149, 237, 0.3);
+    background-size: 100%;
+}
+.cabecalho{
+    background-color: #6495ED;
+    width: 100%;
+    height: 150px;
+    box-shadow:0px 0px 5px 0px black;
+    position: relative;
+}
+.logo{
+    margin-top: 2%;
+    margin-left: 43%;
+}
+.loginimg{
+    margin-top: 2%;
+    margin-left: 45%;
+}
+.formulario{
+    font-family: 'Exo 2', sans-serif;
+    background-color: floralwhite;
+    box-shadow:1px 1px 1px 1px gray;
+    width: 450px;
+    height: 350px;
+    margin-left: 36%;
+    margin-top: 10px;
+    padding:10px;
+}
+.name1{
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.caixaemail{
+    margin-top: -10px;
+    width: 300px;
+    padding-left: 5px;
+    height: 40px;
+    margin-left: 20%;
+    border: solid 1px;
+    border-color: lightseagreen;
+}
+.senha{
+margin-left: 20%;
+margin-top: -10px;
+height: 40px;
+width: 300px;
+border: solid 1px;
+border-color: lightseagreen;
+background-image: url("../imagem/cadeado.png");
+background-repeat: no-repeat;
+padding-right:20px;    
+padding-top:5px;
+background-position: right; 
+padding-left: 5px;
+}
+.name2{
+    margin-top: -10px;
+    margin-left: 20%;
+}
+.logar{
+    margin-top: 3%;
+    width: 300px;
+    height: 40px;
+    margin-left: 20%;
+    background-color: #6495ED;
+    color: white;
+    border:0px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.logar:hover{
+    margin-top: 3%;
+    width: 300px;
+    height: 40px;
+    margin-left: 20%;
+    background-color: #6484ed;
+    color: white;
+    border:0px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.ou{
+    margin-top: -10px;
+    margin-left: 50%;
+}
+.cadastro{
+    margin-top: -30px;
+    width: 300px;
+    height: 40px;
+    margin-left: 20%;
+    background-color: #6495ED;
+    color: white;
+    border:0px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cadastro:hover{
+    margin-top: -30px;
+    width: 300px;
+    height: 40px;
+    margin-left: 20%;
+    background-color: #6484ed;
+    color: white;
+    border:0px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
