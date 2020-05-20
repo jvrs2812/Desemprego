@@ -24,10 +24,11 @@ body{
     background-color: floralwhite;
     box-shadow:1px 1px 1px 1px gray;
     width: 450px;
-    height: 350px;
-    margin-left: 36%;
+    height: 450px;
+    margin-left: 34%;
     margin-top: 10px;
     padding:10px;
+    margin: 0 auto;
 }
 .name1{
     margin-top: 10px;
