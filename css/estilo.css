@@ -8,6 +8,8 @@ body{
    background-repeat: no-repeat;
    font-family: 'Balsamiq Sans', cursive;
    color: white;
+   background-attachment: fixed, scroll;
+   background-repeat: no-repeat, repeat-y;
 }
 .barra{
    background-color:rgba(200, 162, 200, 0.5);
@@ -16,6 +18,8 @@ body{
    margin-left: 25px;
    padding: 0;
    position: absolute;
+   background-attachment: fixed, scroll;
+   background-repeat: no-repeat, repeat-y; 
 }
 .letra{
    font-family: 'Balsamiq Sans', cursive;

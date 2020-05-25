@@ -1,0 +1,354 @@
+body{
+    background-image: url("../imagem/fundohome.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+    background-color: rgba(131,111,255, 0.5); 
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+    color:white;
+    padding: 0;
+    margin: 0;
+}
+main{
+    padding: 40px 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    
+}
+
+#lgcentro{
+    width: 100%;
+    box-shadow:0px 0px 5px 0px black;
+    border-radius: 6px;
+    height: 80px;
+}
+
+
+#menu, #menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+
+#menu {
+    width: 960px;
+    margin: 60px auto;
+    border: 1px solid #222;
+    background-color: #222;
+    background-image: linear-gradient(#444, #111);
+    border-radius: 6px;
+    box-shadow: 0 1px 1px #777;
+}
+
+#menu:before, #menu:after {
+    content: "";
+    display: table;
+}
+
+#menu:after {
+    clear: both;
+}
+
+#menu {
+    zoom: 1;
+}
+
+#menu li {
+    float: left;
+    border-right: 1px solid #222;
+    box-shadow: 1px 0 0 #444;
+    position: relative;
+}
+
+#menu a {
+    float: left;
+    padding: 12px 30px;
+    color: #999;
+    text-transform: uppercase;
+    font: bold 12px Arial, Helvetica;
+    text-decoration: none;
+    text-shadow: 0 1px 0 white;
+}
+
+#menu li:hover > a{
+    color: #fafafa;
+}
+
+#menu ul{
+    margin: 20px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 1;
+    background: #444;
+    background: linear-gradient (#444, #111);
+    box-shadow: 0 - 1px 0 rgba(255,255,255,.3);
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+#menu li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#menu ul ul {
+    top: 0;
+    left: 150px;
+    margin: 0 0 0 20px;
+    box-shadow: -1px 0 0 rgba(255,255,255,.3);
+}
+
+#menu ul li {
+    float: none;
+    display: block;
+    border: 0;
+    box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+}
+
+#menu ul li:last-child {
+    box-shadow: none;
+
+}
+
+#menu ul a {
+    padding: 10px;
+    width: 130px;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+#menu ul a:hover {
+    background-color: #C71585; 
+    background-image: linear-gradient("04acec, 30186ba");
+}
+
+#menu ul li:first-child . a {
+    border-radius: 3px 3px 0 0;
+}
+
+#menu ul li:first-child > a:after {
+    content:'';
+    position: absolute;
+    left: 40px;
+    top: -6px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #444;
+}
+
+#menu ul ul li:first-child a:after {
+    left: 6px;
+    top: 50%;
+    margin-top: -6px;
+    border-left: 0;
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-right: 6px solid #3b3b3b;
+}
+
+#menu ul li:first-child a:hover:after; {
+    border-bottom-color: #04acec;
+}
+
+#menu ul ul li:first-child a:hover:after; {
+    border-bottom-color: transparent;
+}
+
+#menu ulli:last-child > a {
+    border-radius: 0 0 3px 3px;
+}
+ 
+    
+
+
+
+.endereco{
+    border-top-style: 0px solid transparent;
+}
+
+
+
+
+.busca{
+	width:200px;
+	height:34px;
+    margin:0;
+    padding:0;
+	top:0;
+	right:0;
+	outline:none;
+	position:relative;	
+	font-size:14px;
+    border: 1px solid #222;
+    box-shadow: 0 1px 1px #777;
+}
+
+.btn-busca{
+	width:35px;
+	height:36px;
+    margin: 20px 0 0 0;
+    opacity: 20;
+    outline:none;
+    top: -20px; 
+    left: 100%;
+    position: absolute;
+    
+}
+
+.image{
+    display:flex;
+    width:30px;
+	height:30px;
+    margin: 0;
+    padding: -30px;
+    top: 0;
+	left: 0;
+    right: 40px;
+    position: absolute;
+}
+
+#cabecalho{
+    display:flex;
+    margin: 220px;
+    padding:40px 40px;
+    top:10px;
+	left:-50px;
+    right:0;
+    position: absolute;
+}
+
+#texto{
+    display:flex;
+    margin: 220px;
+    padding:40px 40px;
+    color: white;
+    top:70px;
+	left:-50px;
+    right:0;
+    position: absolute;
+}
+#artigo{
+    display:flex;
+    margin: 220px;
+    padding:40px 40px;
+    top:330px;
+	left:-50px;
+    right:0; 
+    position: absolute;
+}
+
+#link{
+    display:flex;
+    top: 60px;
+    left: 120px;
+    color: white;
+    position: absolute;
+}
+
+
+#cbcabe{
+    display:flex;
+    margin: 100px;
+    padding:40px 40px;
+    top:520px;
+	left:70px;
+    right:0;
+    position: absolute;
+}
+
+#tx2{
+    display:flex;
+    margin: 220px;
+    padding:40px 40px;
+    color: white;
+    top:450px;
+	left:-50px;
+    right:0;
+    position: absolute;
+    
+}
+#cbcabe3{
+    display:flex;
+    margin: 100px;
+    padding:40px 40px;
+    top:710px;
+	left:70px;
+    right:0;
+    position: absolute;
+}
+
+
+#tx3{
+    display:flex;
+    margin:220px;
+    padding:40px 40px;
+    color: white;
+    top:650px;
+	left:-50px;
+    right:0;
+    position: absolute;
+    
+}
+
+
+#tx4{
+    display:flex;
+    margin:220px;
+    padding:40px 40px;
+    color: white;
+    top:725px;
+	left:-50px;
+    right:0;
+    position: absolute;
+
+}
+#tx5{
+    display:flex;
+    margin:220px;
+    padding:40px 40px;
+    color:white;
+    top:785px;
+	left:-50px;
+    right:0;
+    position: absolute;
+
+
+}
+#tx6{
+    display:flex;
+    margin:220px;
+    padding:40px 40px;
+    color: white;
+    top:845px;
+	left:-50px;
+    right:0;
+    position: absolute;
+
+}
+.textocorpo{
+    text-align: justify;
+    text-indent: 5%;
+    margin-left: 15%;
+    width: 70%;
+}
+.textocorpo h1{
+    text-align: center;
+    margin-bottom: -2%;
+}
+.textocorpo p{
+    text-indent: 5%;
+}
+.textocorpo a{
+    color: white;
+}
+.textocorpo h2{
+    text-align: center;
+}
+
